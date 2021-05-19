@@ -1,0 +1,34 @@
+<%- include('partials/_head') %>
+<%- include('partials/_nav') %>
+    <div class="container card animate__animated animate__flipInY">
+        <div class="card-header">
+            <h1>Convertidor</h1>
+        </div>
+        <div class="conte">
+            <div class="ci">
+                <select class="sel form-select" id="valor">
+                    <option value="1">cm</option>
+                    <option value="2">pul</option>
+                    <option value="3">m</option>
+                    <option value="4">km</option>
+                    <option value="5">milla</option>
+                </select>
+                <input type="number" id="dato" class="form-control input1">
+            </div>
+            <div class="ci">
+                <h6 class="p">Conertir:</h6>
+                <select class="sel form-select" id="conver">
+                    <option value="1">cm</option>
+                    <option value="2">pul</option>
+                    <option value="3">m</option>
+                    <option value="4">km</option>
+                    <option value="5">milla</option>
+                </select>
+                <button class="btn btn-success" onclick="convertir();">Convertir</button>
+            </div>
+            <div class="card-footer ci">
+                <h6 class="p" id="res">valor</h6>
+            </div>
+        </div>
+    </div>
+    <%- include('partials/_footer') %>

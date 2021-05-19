@@ -101,3 +101,8 @@ function convertir(){
         }
     }
 }
+
+function limpiar(){
+    document.getElementById('dato').value = "";
+    document.getElementById('res').innerHTML = "valor";
+}

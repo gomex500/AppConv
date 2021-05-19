@@ -6,7 +6,7 @@
 
 .card{
     margin-top: 100px;
-    width: 400px;
+    width: 390px;
 }
 .conte{
     width: 100%;
@@ -33,9 +33,13 @@
     display: inline;
 }
 
-.btn{
+.btn1{
     display: inline-block;
     margin-left: 15%;
+}
+.btn2{
+    width: 90%;
+    margin-top: 20px;
 }
 
 .ci{

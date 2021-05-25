@@ -1,4 +1,27 @@
 <%- include('partials/_head') %>
 <%- include('partials/_nav') %>
-<h1>hola</h1>
+<div class="container com card animate__animated animate__flipInY">
+    <div class="card-header h1 bg-dark text-white">
+        <h1>Convertidor <i class="fas fa-ruler"></i></h1>
+    </div>
+    <div class="conte">
+        <div class="ci">
+            <label class="text-white">Ancho:</label>
+            <input type="number" id="ancho" class="form-control input2" placeholder="Ingrese Ancho">
+        </div>
+        <div class="ci">
+            <label class="text-white">Largo:</label>
+            <input type="number" id="largo" class="form-control input2" placeholder="Ingrese Alto">
+        </div>
+        <div class="ci">
+            <button class="btn btn3 btn-danger text-dark" onclick="limpiar2();">Limpiar<i class="fas fa-broom"></i></button>
+            <button class="btn btn3 btn-success text-dark" onclick="convertir2();">Convertir<i class="fas fa-file-signature"></i></button>
+        </div>
+        <div class="card-footer ci bg-dark text-white">
+            <h6 class="p" id="res1">m2</h6>
+            <hr>
+            <h6 class="p" id="res2">ha</h6>
+        </div>
+    </div>
+</div>
 <%- include('partials/_footer') %>

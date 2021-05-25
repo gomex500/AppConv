@@ -1,4 +1,40 @@
 <%- include('partials/_head') %>
 <%- include('partials/_nav') %>
-<h1>hola2</h1>
+<div class="container com">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="container card animate__animated animate__flipInY">
+                <div class="card-header h1 bg-dark text-white">
+                    <h1>Calcular <i class="fas fa-ruler"></i></h1>
+                </div>
+                <div class="conte">
+                    <div class="ci">
+                        <label class="text-white">Datos:</label>
+                        <input type="number" id="dato" class="form-control input2" placeholder="Ingrese Dato">
+                    </div>
+                    <div class="ci">
+                        <button class="btn btn3 btn-info text-dark" onclick="add();">add<i class="fas fa-file-signature"></i></button>
+                        <button class="btn btn3 btn-success text-dark" onclick="calcular();">Calcular<i class="fas fa-file-signature"></i></button>
+                        <button class="btn btn2 btn-danger text-dark" onclick="limpiar3();">Limpiar<i class="fas fa-broom"></i></button>
+                    </div>
+                    <div class="card-footer ci bg-dark text-white">
+                        <h6 class="p" id="res5">media:</h6>
+                        <hr>
+                        <h6 class="p" id="res6">moda:</h6>
+                        <hr>
+                        <h6 class="p" id="res7">desviacion:</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="container card animate__animated animate__flipInY">
+                <div id="contenedor">
+                    <h6 class="p text-white">Datos</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <%- include('partials/_footer') %>

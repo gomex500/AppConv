@@ -1,8 +1,8 @@
 <%- include('partials/_head') %>
 <%- include('partials/_nav') %>
-    <div class="container card animate__animated animate__flipInY">
-        <div class="card-header">
-            <h1>Convertidor</h1>
+    <div class="container com card animate__animated animate__flipInY">
+        <div class="card-header h1 bg-dark text-white">
+            <h1>Convertidor <i class="fas fa-ruler"></i></h1>
         </div>
         <div class="conte">
             <div class="ci">
@@ -13,10 +13,10 @@
                     <option value="4">km</option>
                     <option value="5">milla</option>
                 </select>
-                <input type="number" id="dato" class="form-control input1">
+                <input type="number" id="dato" class="form-control input1" placeholder="Ingrese Dato a convertir">
             </div>
             <div class="ci">
-                <h6 class="p">Conertir:</h6>
+                <h6 class="p text-white">Conertir:</h6>
                 <select class="sel form-select" id="conver">
                     <option value="1">cm</option>
                     <option value="2">pul</option>
@@ -24,10 +24,10 @@
                     <option value="4">km</option>
                     <option value="5">milla</option>
                 </select>
-                <button class="btn btn1 btn-success" onclick="convertir();">Convertir</button>
-                <button class="btn btn2 btn-danger" onclick="limpiar();">Limpiar</button>
+                <button class="btn btn1 btn-success text-dark" onclick="convertir();">Convertir<i class="fas fa-file-signature"></i></button>
+                <button class="btn btn2 btn-danger text-dark" onclick="limpiar();">Limpiar<i class="fas fa-broom"></i></button>
             </div>
-            <div class="card-footer ci">
+            <div class="card-footer ci bg-dark text-white">
                 <h6 class="p" id="res">valor</h6>
             </div>
         </div>

@@ -2,14 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Pattaya', sans-serif;
+}
+
+body{
+    background-image: url('/IMG/fondo.png');
+}
+
+hr{
+    background-color: white;
+}
+.h1{
+    text-align: center;
+}
+.com{
+    margin-top: 100px;
 }
 
 .card{
-    margin-top: 100px;
-    width: 390px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.30);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .conte{
-    width: 100%;
     padding: 20px 0;
     display: inline;
 }
@@ -33,6 +50,12 @@
     display: inline;
 }
 
+.input2{
+    width: 80%;
+    display: inline;
+    margin-left: 10px;
+}
+
 .btn1{
     display: inline-block;
     margin-left: 15%;
@@ -45,4 +68,8 @@
 .ci{
     margin-top: 20px;
     text-align: center;
+}
+
+.btn3{
+    width: 45%;
 }
